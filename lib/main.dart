@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:fluttershop/pages/detail_chat_page.dart';
 import 'package:fluttershop/pages/home/main_page.dart';
 import 'package:fluttershop/pages/sign_in_page.dart';
 import 'package:fluttershop/pages/sign_up_page.dart';
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
         '/sign-in': (context) => SignInPage(),
         '/sign-up': (context) => SignUpPage(),
         '/main': (context) => MainPage(),
+        '/detail-chat': (context) => DetailChatPage(),
       },
     );
   }
